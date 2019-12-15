@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<script type="text/javascript" src="../assets/js/index.js"></script>
+		<style>
+		<!--
+		@import url("../assets/css/index.css");
+		@import url("../assets/css/star.css");
+		@import url("../assets/css/product.css");
+		-->
+		
+		</style>
+	</head>
+	<body>
+		<nav>
+			<!--上方列-->
+			<ol class="breadcrumb" >
+				<li class="breadcrumb-item"><a href="../index.html" title="首頁"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/logo.png"></a></li>
+    			<li class="breadcrumb-item"><a href="product.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list1.png"></a></li>
+			    <li class="breadcrumb-item"><a href="customer.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list2.png"></a></li>
+			    <li class="breadcrumb-item"><a href="our.html"><img style="width:120px; height:70px;" value="About" src="../assets/img/list3.png"></li>
+				<!--登入註冊-->
+				<li  style="position:absolute;right: 80px; top:30px;"  ><a href="#my-modal" class="button">登入</a>
+					<div id="my-modal" class="modalable">
+						<div class="modal-inner">
+							<a class="modal-close" href="#nowhere">&times;</a>
+							<div class="modal-title">進入魔法世界</div>
+							<div class="modal-body">
+								<form method="post" action="">
+									<ul style="position:relative;margin-top:20px;">
+										<li>帳號︰<input class="input2" type="text" name="user" /><br/></li>
+										<li>密碼︰<input class="input2"type="text" name="password" /><br/></li>
+										<input class="button2" type="" value="登入" />
+									</ul>
+								</form> 
+							</div>
+						</div> 
+					</div> 
+				</li>
+				<li  style="position:absolute;right: 30px; top:30px;" ><a href="#my-modal2" class="button">註冊</a>
+					<div id="my-modal2" class="modalable">
+						<div class="modal-inner">
+							<a class="modal-close" href="#nowhere">&times;</a>
+							<div class="modal-title">加入魔法世界</div>
+							<div class="modal-body">
+								<form method="post" action="">
+									<ul>
+										<li>姓名︰<input class="input1" type="text" name="name" /><br/></li>
+										<li>電話︰<input class="input1" type="text" name="number" /><br/></li>
+										<li>住址︰<input class="input1" type="text" name="address" /><br/></li>
+										<li>信箱︰<input class="input1" type="text" name="email" /><br/></li>
+										<li>帳號︰<input class="input1" type="text" name="user" /><br/></li>
+										<li>密碼︰<input class="input1"type="text" name="password" /><br/></li>
+										<input class="button2" type="" value="註冊" />
+									</ul>
+								</form> 
+							</div> 
+						</div>
+					</div> 
+				</li>	
+			</ol>
+		</nav>
+		<!--左邊選單-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-md-0"></div>
+					<div style="padding-left:20px;" class="col-12 col-md-3">
+						<ul class="ul1">
+							<li class="li1"><a href="product.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing1.png"></a></li>
+						    <li class="li1"><a href="hplist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing2.png"></a></li>
+						    <li class="li1"><a href="mplist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing3.png"></a></li>
+						    <li class="li1"><a href="splist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing4.png"></a></li>
+						    <li class="li1"><a href="car.html"><img style="width:150px; height:80px;" src="../assets/img/product/thing5.png"></a></li>	
+						</ul>
+					</div>
+			<!--商品-->
+				<div class="col-12 col-md-9" style="position: relative;top:90px;">
+					<div class="container-fluid" >
+						<div class="row justify-content-center align-items-center">
+							<div class="col-12 col-md-4">
+								<img style="width:300px; height:300px;" src="../assets/img/product/true.png">
+						</div>
+						<div class="col-12 col-md-7"><span class="p1">生命藥水—普通の</span>
+						<hr class="hr1" align="left">
+							<table id="tab">
+								<tr>
+									<td>
+										<span class="p2">$︰&emsp;<span class="price">30&emsp;元/瓶<br>數量︰
+											<input class="button3" name="" type="button" value="-" />
+											<input class="text_box" name="" type="text" value="1" />
+											<input class="button4" name="" type="button" value="+" /> 
+										</span>
+									</td>
+								</tr>
+							</table>
+							<hr class="hr1" align="left">
+							<span class="p2">發售公司︰ㄅㄅㄅㄅㄅ<br>發售日期︰2020.1<br>
+								<span class="p3">（庫存:20）</span>
+								<hr class="hr1" align="left">
+									<a href="#my-modal2" class="button5">下單</a>
+										<div id="my-modal2" class="modalable">
+											<div class="modal-inner">
+												<a class="modal-close" href="#nowhere">&times;</a>
+												<div class="modal-title">生命藥水—普通の</div>
+												<div class="modal-body">
+												<form method="post" action="">
+													<ul>
+														<li class="li2">NT$&emsp;50&emsp;＊&emsp;<input class="input4" type="text" name="dollars" /><br/></li>
+														<li class="li2">住址︰<input class="input3" type="text" name="address" /><br/></li>
+														<li class="li2">總金額︰&emsp;<input class="input4" type="text" name="total" />&emsp;元<br/></li>
+														<a href="#my-modal" class="button7">確定</a>			
+													</ul>
+												</form>
+												</div>
+											</div>
+										</div> 
+							<input class="button5" type="button" value="加入" />
+						</div>
+						<div class="col-12 col-md-12">
+							<hr class="hr2" align="left">
+								<p class="p4"  style="position:relative;top:40px;">商品介紹</p>
+								<p class="p3" style="position:relative;top:40px;">充滿生命力的紅色藥水，外觀是鮮艷的紅色。如果喝下他的話能夠恢復滿滿的體力，讓你休息過後重新再出發喔。</p>	
+						</div>
+						<div class="col-12 col-md-12">
+							<button class="accordion">商品評價▼</button>
+								<div class="panel">
+									<div class="star star-lock" style="position:relative;top:6px;">
+										<input type="radio" name="rdStarLock"/><label></label>
+										<input type="radio" name="rdStarLock" value="1"/><label></label>
+										<input type="radio" name="rdStarLock" value="2"/><label></label>
+										<input type="radio" name="rdStarLock" value="3"/>
+										<input type="radio" name="rdStarLock" value="4"checked="checked"/><label></label>
+										<input type="radio" name="rdStarLock" value="5"/><label></label>
+									</div>
+									<p class="p3">充滿生命力的紅色藥水，外觀是鮮艷的紅色。如果喝下他的話能夠恢復滿滿的體力，讓你休息過後重新再出發喔。</p>	
+								</div>
+							<hr class="hr2" align="left">
+						</div>
+						<div class="col-12 col-md-12">
+							<p class="p4" style="position:relative;top:40px;">評分</p>
+								<div class="star" style="position:relative;top:50px;">
+									<input type="radio" name="rdStar" checked="checked"/ ><label class="p1"></label>
+									<input type="radio" name="rdStar" value="1"/><label class="p3"></label>
+									<input type="radio" name="rdStar" value="2"/><label class="p3"></label>
+									<input type="radio" name="rdStar" value="3"/><label class="p3"></label>
+									<input type="radio" name="rdStar" value="4"/><label class="p3"></label>
+									<input type="radio" name="rdStar" value="5"/><label class="p3"></label>
+								</div>
+								<p class="p5" style="position:relative;top:60px;">留言板<br></p>
+								<textarea name="memo" cols="100" rows="10" wrap="hard" style="font-size:10px;position:relative;top:60px;"> </textarea>
+								</div>
+								<input class="button6" type="button" value="留言"style="position:relative;top:25px;left:30px;margin-bottom:90px;" />
+						</div>
+					</div>
+				</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+					<!---->
+		<script type="text/javascript" src="../assets/js/product.js"></script>
+	</body>
+</html>

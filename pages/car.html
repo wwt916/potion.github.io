@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+    	<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    	<script type="text/javascript" src="../assets/js/index.js"></script>
+    	<style>
+    	<!--
+   	 	@import url("../assets/css/index.css");
+    	@import url("../assets/css/product.css");
+ 		@import url("../assets/css/checkbox.css");
+    	-->
+    	</style>
+  	</head>
+  	<body>
+		<nav>
+			<!--上方列-->
+			<ol class="breadcrumb" >
+				<li class="breadcrumb-item"><a href="../index.html" title="首頁"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/logo.png"></a></li>
+    			<li class="breadcrumb-item"><a href="product.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list1.png"></a></li>
+			    <li class="breadcrumb-item"><a href="customer.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list2.png"></a></li>
+			    <li class="breadcrumb-item"><a href="our.html"><img style="width:120px; height:70px;" value="About" src="../assets/img/list3.png"></li>
+				<!--登入註冊-->
+				<li  style="position:absolute;right: 80px; top:30px;"  ><a href="#my-modal" class="button">登入</a>
+					<div id="my-modal" class="modalable">
+						<div class="modal-inner">
+							<a class="modal-close" href="#nowhere">&times;</a>
+							<div class="modal-title">進入魔法世界</div>
+							<div class="modal-body">
+								<form method="post" action="">
+									<ul style="position:relative;margin-top:20px;">
+										<li>帳號︰<input class="input2" type="text" name="user" /><br/></li>
+										<li>密碼︰<input class="input2"type="text" name="password" /><br/></li>
+										<input class="button2" type="" value="登入" />
+									</ul>
+								</form> 
+							</div>
+						</div> 
+					</div> 
+				</li>
+				<li  style="position:absolute;right: 30px; top:30px;" ><a href="#my-modal2" class="button">註冊</a>
+					<div id="my-modal2" class="modalable">
+						<div class="modal-inner">
+							<a class="modal-close" href="#nowhere">&times;</a>
+							<div class="modal-title">加入魔法世界</div>
+							<div class="modal-body">
+								<form method="post" action="">
+									<ul>
+										<li>姓名︰<input class="input1" type="text" name="name" /><br/></li>
+										<li>電話︰<input class="input1" type="text" name="number" /><br/></li>
+										<li>住址︰<input class="input1" type="text" name="address" /><br/></li>
+										<li>信箱︰<input class="input1" type="text" name="email" /><br/></li>
+										<li>帳號︰<input class="input1" type="text" name="user" /><br/></li>
+										<li>密碼︰<input class="input1"type="text" name="password" /><br/></li>
+										<input class="button2" type="" value="註冊" />
+									</ul>
+								</form> 
+							</div> 
+						</div>
+					</div> 
+				</li>	
+			</ol>
+		</nav>
+      	<!--左邊選單-->
+  		<div class="container-fluid">
+    		<div class="row">
+      			<div style="padding-left:20px;padding-top:-50px;" class="col-12 col-md-3">
+        			<ul class="ul1">
+			          <li class="li1"><a href="product.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing1.png"></a></li>
+			          <li class="li1"><a href="hplist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing2.png"></a></li>
+			          <li class="li1"><a href="mplist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing3.png"></a></li>
+			          <li class="li1"><a href="splist.html"><img style="width:150px; height:80px;" value="About" src="../assets/img/product/thing4.png"></a></li>
+			          <li class="li1"><a href="car.html"><img style="width:150px; height:80px;" src="../assets/img/product/thing5.png"></a></li>
+        			</ul>
+      			</div> 
+      	<!--商品--> 
+	      	<div class="col-12 col-md-8" style="position: relative;top: 100px;">
+	        	<div class="container-fluid">
+	           		<div class="row">
+	              		<div class="col-md-2"></div>
+	              	<div class="col-md-12">
+	                    <form action="/action_page.php" method="get">
+	 						<input type="checkbox" class="option-input checkbox" checked /><img style="width:90px; height:130px;position:relative;left:50px;" src="../assets/img/product/true.png">
+	  							<div style="float:right;position:relative;top:40px;">
+	            				<table id="tab">
+	              					<tr>
+	                					<td>
+	                						<span class="p2">生命藥水—普通の&emsp;&emsp;</span>
+							                <span class="p2">$︰&emsp;&emsp;<span class="price">30&emsp;&emsp;</span>元/瓶&emsp;&emsp;數量︰</span>
+							                <input class="button3" name="" type="button" value="-" />
+							                <input class="textbox" name="" type="text" value="1" />
+							                <input class="button4" name="" type="button" value="+" />
+							            </td>
+	              					</tr>
+	            				</table> 
+	            				</div><br>
+	  						<hr>
+						</form>      
+	            	</div>
+	        		</div>
+	       		</div>     
+				<span class="p4"  style="line-height: 24px;float:right;">總金額:<label id="total"></label></span>
+	     	</div>
+   		</div>
+
+      	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      	<!---->
+		<script type="text/javascript" src="../assets/js/car.js"></script>
+  	</body>
+</html>
