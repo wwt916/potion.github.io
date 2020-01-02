@@ -1,0 +1,13 @@
+.number{
+	width:80px;
+	color:#444;
+	border:1.5px solid #E69500;
+	border-radius:6px;
+	text-align:center;
+}
+.number:hover{
+	background-color:#FFF7E8;
+
+	
+}
+input::-webkit-inner-spin-button{cursor: pointer;}

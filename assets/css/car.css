@@ -1,0 +1,11 @@
+ .car ol li{
+      overflow: hidden; /* 超過範圍隱藏 */
+       white-space: nowrap; /* 不斷行 */
+       display: inline;
+     }
+     .cartxt{
+            
+             font-family:"微軟正黑體";
+             font-size: 30px;
+            color: black ;
+     }

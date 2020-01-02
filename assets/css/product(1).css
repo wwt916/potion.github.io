@@ -1,0 +1,33 @@
+
+		/*商品介紹*/
+		.accordion {
+		background-color: #FFE8BF	;
+		color: #444;
+		cursor: pointer;
+		border-radius:10px;
+		padding: 19px;
+		width: 85%;
+		border: none;
+		text-align: left;
+		outline: none;
+		transition: 0.4s;
+		font-family:"微軟正黑體";
+		font-size:25px;
+		font-weight:bold;
+		position:relative;margin-top:60px;
+		}
+		.active, .accordion:hover {
+		background-color: #FFCF78	;
+		}
+		.panel {
+		padding: 0 18px;
+		display: none;
+		background-color:#FFF3DE;
+		overflow: hidden;
+		width: 85%;
+		}
+		.textbox{
+  		width:40px;
+   		height:30px;
+   		text-align:center;
+  		}

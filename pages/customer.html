@@ -24,74 +24,94 @@
     			<li class="breadcrumb-item"><a href="product.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list1.png"></a></li>
 			    <li class="breadcrumb-item"><a href="customer.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list2.png"></a></li>
 			    <li class="breadcrumb-item"><a href="our.html"><img style="width:120px; height:70px;" value="About" src="../assets/img/list3.png"></li>
-				<!--登入註冊-->
-				<li  style="position:absolute;right: 80px; top:30px;"  ><a href="#my-modal" class="button">登入</a>
-					<div id="my-modal" class="modalable">
-						<div class="modal-inner">
-							<a class="modal-close" href="#nowhere">&times;</a>
-							<div class="modal-title">進入魔法世界</div>
-							<div class="modal-body">
-								<form method="post" action="">
-									<ul style="position:relative;margin-top:20px;">
-										<li>帳號︰<input class="input2" type="text" name="user" /><br/></li>
-										<li>密碼︰<input class="input2"type="text" name="password" /><br/></li>
-										<input class="button2" type="" value="登入" />
-									</ul>
-								</form> 
-							</div>
-						</div> 
-					</div> 
-				</li>
-				<li  style="position:absolute;right: 30px; top:30px;" ><a href="#my-modal2" class="button">註冊</a>
-					<div id="my-modal2" class="modalable">
-						<div class="modal-inner">
-							<a class="modal-close" href="#nowhere">&times;</a>
-							<div class="modal-title">加入魔法世界</div>
-							<div class="modal-body">
-								<form method="post" action="">
-									<ul>
-										<li>姓名︰<input class="input1" type="text" name="name" /><br/></li>
-										<li>電話︰<input class="input1" type="text" name="number" /><br/></li>
-										<li>住址︰<input class="input1" type="text" name="address" /><br/></li>
-										<li>信箱︰<input class="input1" type="text" name="email" /><br/></li>
-										<li>帳號︰<input class="input1" type="text" name="user" /><br/></li>
-										<li>密碼︰<input class="input1"type="text" name="password" /><br/></li>
-										<input class="button2" type="" value="註冊" />
-									</ul>
-								</form> 
-							</div> 
-						</div>
-					</div> 
-				</li>	
-			</ol>
-		</nav>
-		<div class="container-fluido">
-    		<div class="row" style="width:1500px;">
-       			<div class="col-12 col-md-2"  ></div>
-     				<div style="position: relative;top: 90px;padding-left: 50px;"  class="col-12 col-md-4" >
-      				<img src="../assets/img/customer/2.jpg" style="width:400px; height:320px;">
-     			</div>
-     			<div class="col-12 col-md-6" style="position: relative;top: 50px;padding-left: 10px;">
-     				<form method="post" action=""> 
-						<ul>
-							<li class="li3">姓名︰<input class="input1" type="text" name="name" /><br/></li>
-							<li class="li3">電話︰<input class="input1" type="text" name="number" /><br/></li>
-							<li class="li3">住址︰<input class="input1" type="text" name="address" /><br/></li>
-							<li class="li3">信箱︰<input class="input1" type="text" name="email" /><br/></li>
-							<li class="li3">帳號︰<input class="input1" type="text" name="user" /><br/></li>
-							<li class="li3">密碼︰<input class="input1"type="text" name="password" /><br/></li>
-							<li class="li3">消費紀錄︰<br/></li>
-							<li class="li3">評價︰<br/></li>
-					 		<input class="button8" type="submit" value="確定修改" />    <input class="button8" type="reset" value="取消" /> 
-	 		
-						</ul>
-					</form> 				
+				<!--搜尋-->
+                <nav class="navbar navbar-light " style="position:absolute;right: 130px; top:20px;padding: 0px;margin: 0px;" >
+                  <a class="navbar-brand"></a>
+                     <form class="form-inline">
+                       <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                       <button style="padding-left: 0px; " class="btn  my-2 my-sm-0" type="submit"><img style="width: 50px;height: 40px;" src="../assets/img/search.png" alt="搜尋"></button>
+                     </form>
+                </nav>
+        <!--登入註冊-->
+    <li  style="position:absolute;right: 80px; top:30px;"  ><a href="#my-modal" class="button">登入</a>
+     <div id="my-modal" class="modalable" >
+      <div class="modal-inner" >
+       <a class="modal-close" href="#nowhere">&times;</a>
+       <div class="modal-title">進入魔法世界</div>
+       <div class="modal-body" >
+        <form method="post" action="" >
+         <ul style="position:relative;margin-top:20px;">
+          <li class="li5">帳號︰<input class="input2" type="text" name="username" id="username" /><br/></li>
+          <li class="li5">密碼︰<input class="input2" type="text" name="password" id="password" /><br/></li>
+          <input class="button2" type="submit" value="登入" onclick="aaa123()" />
+          <a href="pages/user.html" target="_blank" class="p3" style="position:relative;left:100px;">管理者登入</a>
+         </ul>
+        </form> 
+       </div>
+      </div> 
+     </div> 
+    </li>
+    <li  style="position:absolute;right: 30px; top:30px;" ><a href="#my-modal2" class="button">註冊</a>
+     <div id="my-modal2" class="modalable">
+      <div class="modal-inner">
+       <a class="modal-close" href="#nowhere">&times;</a>
+       <div class="modal-title">加入魔法世界</div>
+       <div class="modal-body">
+        <form method="post" action="">
+         <ul>
+          <li>姓名︰<input class="input1" type="text" name="name" id="name" /><br/></li>
+          <li>電話︰<input class="input1" type="text" name="number" id="tel" /><br/></li>
+          <li>住址︰<input class="input1" type="text" name="address" id="addr" /><br/></li>
+          <li>信箱︰<input class="input1" type="text" name="email" id="email" /><br/></li>
+          <li>帳號︰<input class="input1" type="text" name="user" id="username2" /><br/></li>
+          <li>密碼︰<input class="input1" type="text" name="password" id="password2" /><br/></li>
+          <input class="button22" type="submit" value="註冊" onclick="aaa321()"/>
+         </ul>
+        </form> 
+       </div> 
+      </div>
+     </div> 
+    </li> 
+   </ol>
+  </nav>
+		<div class="container">
+  			<div class="row justify-content-center align-items-center">
+    			<div class="col order-2"style="position: relative;top:25px;left:30px;">
+    				<span>
+	    				<form method="post" action="" > 
+							<ul>
+								<li class="li3">姓名︰<input class="input1" type="text" name="name" /><br/></li>
+								<li class="li3">電話︰<input class="input1" type="text" name="number" /><br/></li>
+								<li class="li3">住址︰<input class="input1" type="text" name="address" /><br/></li>
+								<li class="li3">信箱︰<input class="input1" type="text" name="email" /><br/></li>
+								<li class="li3">帳號︰<input class="input1" type="text" name="user" /><br/></li>
+								<li class="li3">密碼︰<input class="input1"type="text" name="password" /><br/></li>
+								<li class="li3" style="margin-top:20px;">消費紀錄︰0元<br/></li>
+								<li class="li3" style="margin-top:30px;">評價︰<div class="star2 star-lock2" style="position:relative;top:5px;left:20px;width:300px;">
+												           <input type="radio" name="rdStarLock"/><label></label>
+												           <input type="radio" name="rdStarLock" value="1"/><label></label>
+												           <input type="radio" name="rdStarLock" value="2"/><label></label>
+												           <input type="radio" name="rdStarLock" value="3"/>
+												           <input type="radio" name="rdStarLock" value="4"checked="checked"/><label></label>
+												           <input type="radio" name="rdStarLock" value="5"/><label></label>
+											          </div><br/></li>
+							 	<input class="button8" type="submit" value="確定修改" />    <input class="button8" type="reset" value="取消" /> 
+							</ul>
+						</form> 
+					</span> 
 				</div>
-			</div>
+    			<div class="col order-1" style="position: relative;left: 100px;">
+    				<span>
+    					<img src="../assets/img/customer/cus3.png "style="width:400px; height:400px;"> 
+    				</span> 
+    			</div>
+  			</div>
 		</div>
+		<footer class="f2" style="margin-top:80px;">Copyright&emsp;©&emsp;<img src="../assets/img/logo.png"style="width:75px;height:40px"><div class="p7" style="float:right;">訪客數︰</div></footer>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../assets/js/alertcar.js"></script>
 		<!---->
 
 	</body> 
