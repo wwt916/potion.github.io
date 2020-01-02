@@ -1,0 +1,70 @@
+.star {position:relative;display:inline-block;line-height:1em;}
+    .star input {display:block;float:left;margin:0;padding:0;width:1em;height:1em;font:inherit;background:center 0/cover no-repeat;outline:0 none transparent;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+    }
+    .star label {display:none;float:right;margin-left:0.5em;}
+    .star input:first-child {
+        display:none;
+        /* -webkit-appearance:radio;-moz-appearance:radio;appearance:radio; */
+    }
+
+    .star input:checked ~ input {background-position:center -1em;}
+    .star:hover input:checked ~ input {background-position:center 0;}
+    .star:hover input:hover ~ input {background-position:center -1em;}
+
+    .star input:checked + label {display:block;}
+    .star:hover input:checked + label {display:none;}
+    .star:hover input:hover + label {display:block;}
+
+    .star-once input:first-child:not(:checked) ~ input {background-position:center 0;pointer-events:none;}
+    .star-once input:not(:first-child):checked ~ input {background-position:center -1em;}
+
+    .star-once input:first-child:not(:checked) ~ label {display:none;}
+    .star-once input:not(:first-child):checked + label {display:block;}
+
+    .star-lock {pointer-events:none;}
+
+    /*
+     以上的 css 可寫入統一樣式表
+     以下的樣式 可在用的地方分別處理，自定義 大小，星星圖片
+     */
+    .star {font-size:70px;}
+    .star input {background-image:url('../img/product/star.png');}
+
+/*第二個*/
+.star2 {position:relative;display:inline-block;line-height:1em;}
+    .star2 input {display:block;float:left;margin:0;padding:0;width:1em;height:1em;font:inherit;background:center 0/cover no-repeat;outline:0 none transparent;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+    }
+    .star2 label {display:none;float:right;margin-left:0.5em;}
+    .star2 input:first-child {
+        display:none;
+        /* -webkit-appearance:radio;-moz-appearance:radio;appearance:radio; */
+    }
+
+    .star2 input:checked ~ input {background-position:center -1em;}
+    .star2:hover input:checked ~ input {background-position:center 0;}
+    .star2:hover input:hover ~ input {background-position:center -1em;}
+
+    .star2 input:checked + label {display:block;}
+    .star2:hover input:checked + label {display:none;}
+    .star2:hover input:hover + label {display:block;}
+
+    .star-once input:first-child:not(:checked) ~ input {background-position:center 0;pointer-events:none;}
+    .star-once input:not(:first-child):checked ~ input {background-position:center -1em;}
+
+    .star-once input:first-child:not(:checked) ~ label {display:none;}
+    .star-once input:not(:first-child):checked + label {display:block;}
+
+    .star-lock2 {pointer-events:none;}
+
+    /*
+     以上的 css 可寫入統一樣式表
+     以下的樣式 可在用的地方分別處理，自定義 大小，星星圖片
+     */
+    .star2 {font-size:25px;}
+    .star2 input {background-image:url('../img/product/star.png');}

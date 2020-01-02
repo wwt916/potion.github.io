@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+  		<!-- Required meta tags -->
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		  
+		<script type="text/javascript" src="../assets/js/index.js"></script>
+		<script type="text/javascript" src="../assets/js/our.js"></script>
+		<style>
+		<!--
+		@import url("../assets/css/index.css");
+		@import url("../assets/css/product.css");
+		@import url("../assets/css/our.css");
+		-->
+  		</style>
+ 	</head>
+ 	<body>
+		<nav>
+			<!--上方列-->
+			<ol class="breadcrumb" >
+				<li class="breadcrumb-item"><a href="../index.html" title="首頁"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/logo.png"></a></li>
+    			<li class="breadcrumb-item"><a href="product.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list1.png"></a></li>
+			    <li class="breadcrumb-item"><a href="customer.html"><img style="width:120px; height:70px;"  value="About"  src="../assets/img/list2.png"></a></li>
+			    <li class="breadcrumb-item"><a href="our.html"><img style="width:120px; height:70px;" value="About" src="../assets/img/list3.png"></li>
+				<!--搜尋-->
+                <nav class="navbar navbar-light " style="position:absolute;right: 130px; top:20px;padding: 0px;margin: 0px;" >
+                  <a class="navbar-brand"></a>
+                     <form class="form-inline">
+                       <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                       <button style="padding-left: 0px; " class="btn  my-2 my-sm-0" type="submit"><img style="width: 50px;height: 40px;" src="../assets/img/search.png" alt="搜尋"></button>
+                     </form>
+                </nav>
+				<!--登入註冊-->
+    <li  style="position:absolute;right: 80px; top:30px;"  ><a href="#my-modal" class="button">登入</a>
+     <div id="my-modal" class="modalable" >
+      <div class="modal-inner" >
+       <a class="modal-close" href="#nowhere">&times;</a>
+       <div class="modal-title">進入魔法世界</div>
+       <div class="modal-body" >
+        <form method="post" action="" >
+         <ul style="position:relative;margin-top:20px;">
+          <li class="li5">帳號︰<input class="input2" type="text" name="username" id="username" /><br/></li>
+          <li class="li5">密碼︰<input class="input2" type="text" name="password" id="password" /><br/></li>
+          <input class="button2" type="submit" value="登入" onclick="aaa123()" />
+          <a href="pages/user.html" target="_blank" class="p3" style="position:relative;left:100px;">管理者登入</a>
+         </ul>
+        </form> 
+       </div>
+      </div> 
+     </div> 
+    </li>
+    <li  style="position:absolute;right: 30px; top:30px;" ><a href="#my-modal2" class="button">註冊</a>
+     <div id="my-modal2" class="modalable">
+      <div class="modal-inner">
+       <a class="modal-close" href="#nowhere">&times;</a>
+       <div class="modal-title">加入魔法世界</div>
+       <div class="modal-body">
+        <form method="post" action="">
+         <ul>
+          <li>姓名︰<input class="input1" type="text" name="name" id="name" /><br/></li>
+          <li>電話︰<input class="input1" type="text" name="number" id="tel" /><br/></li>
+          <li>住址︰<input class="input1" type="text" name="address" id="addr" /><br/></li>
+          <li>信箱︰<input class="input1" type="text" name="email" id="email" /><br/></li>
+          <li>帳號︰<input class="input1" type="text" name="user" id="username2" /><br/></li>
+          <li>密碼︰<input class="input1" type="text" name="password" id="password2" /><br/></li>
+          <input class="button22" type="submit" value="註冊" onclick="aaa321()"/>
+         </ul>
+        </form> 
+       </div> 
+      </div>
+     </div> 
+    </li> 
+   </ol>
+  </nav>
+		<div class="container">
+  			<div class="row justify-content-center align-items-center">
+    			<div class="col order-2" style="position: relative;top:25px;left:50px;">
+					<p class="p6">哈囉大家好~~~<br>我們是神奇藥水屋!!!<br>我們的藥水可以帶給大家很多歡樂，<br>走過路過千萬不要錯過阿</p>
+				</div>
+    			<div class="col order-1" style="position: relative;left: 30px;">
+    				<span>
+    					<img src="../assets/img/our/our.jpg" style="margin-top:30px;margin-bottom:30px;border-radius:10px;width:550px; height:412px;"> 
+    				</span> 
+    			</div>
+  			</div>
+<!---->
+<hr>
+    <div class="container" style="padding-left: 0px; margin-left: 0px;margin-top:30px;">
+      <div class="row">
+            <div class="col-12 col-md-3" >
+              <img src="../assets/img/our/p12.png" style="position:relative;top:60px;left:60px;width: 250px; height: 250px;border-radius: 50%;" >
+            </div>
+            <div class="col-12 col-md-3" style="position:relative;top:160px;left:40px;font-size: 30px;">
+              <p class="p6">快來買我們的藥水啦!</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <figure class="snip1321" style="position:relative;left:8%;"><img  src="../assets/img/our/p1.jpg" />
+        <figcaption >
+          <p class="p9">王惟彤</p>
+            <p class="p5">資管二甲<br>生日︰88.11.16<br>興趣︰看Youtube</p>
+            <a href="https://www.facebook.com/profile.php?id=100003152880377" target="_blank"><img src="../assets/img/our/fb.png" height="40" width="40" style="position:relative;top:180px;left:-8%;"></a>
+            <a href="https://www.instagram.com/wwt916/" target="_blank"><img src="../assets/img/our/ig.png" height="40" width="40" style="position:relative;top:180px;left:8%;"></a>
+            </figcaption>
+      </figure>
+            </div>
+      </div>
+    </div>
+    <hr>
+<!--1-->
+  <div class="container">
+      <div class="row">
+            <div class="col-12 col-md-6">
+              <figure class="snip1321" style="position:relative;left:8%;"><img  src="../assets/img/our/p2.jpg" />
+        <figcaption>
+          <p class="p9">蔡于凱</p>
+            <p class="p5">資管二甲<br>生日︰88.12.4<br>興趣︰彈吉他</p>
+            <a href="https://www.facebook.com/profile.php?id=100009242330180" target="_blank"><img src="../assets/img/our/fb.png" height="40" width="40" style="position:relative;top:180px;left:-8%;"></a>
+            <a href="https://www.instagram.com/_yukai1202/" target="_blank"><img src="../assets/img/our/ig.png" height="40" width="40" style="position:relative;top:180px;left:8%;"></a>
+            </figcaption>
+      </figure>
+            </div>
+            <div class="col-12 col-md-3" style="position:relative;top:160px;font-size: 30px;left:65px;">
+              <p class="p6">我不要被當:(</p>
+            </div>
+             <div class="col-12 col-md-3">
+              <img src="../assets/img/our/p22.png" style="position:relative;top:60px;width: 250px; height: 250px;border-radius: 50%;right:15%;" >
+            </div>
+      </div>
+    </div>
+    <hr>
+<!--2-->
+    <div class="container" style="padding-left: 0px; margin-left: 0px;">
+      <div class="row">
+            <div class="col-12 col-md-3" >
+              <img src="../assets/img/our/p32.png" style="position:relative;top:60px;left:60px;width: 250px; height: 250px;border-radius: 50%;" >
+            </div>
+            <div class="col-12 col-md-3" style="position:relative;top:160px;font-size: 30px;left:20px;">
+              <p class="p6" align="center">什麼???<br>全館免運?????!!!!!</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <figure class="snip1321" style="position:relative;left:8%;"><img src="../assets/img/our/p3.jpg" />
+        <figcaption >
+          <p class="p9">許淨瑄</p>
+            <p class="p5">資管二乙<br>生日︰89.3.17<br>興趣︰把學生證丟到垃圾桶</p>
+             <a href="https://www.facebook.com/profile.php?id=100006480166120" target="_blank"><img src="../assets/img/our/fb.png" height="40" width="40" style="position:relative;top:180px;left:-8%;"></a>
+            <a href="https://www.instagram.com/hujing__/" target="_blank"><img src="../assets/img/our/ig.png" height="40" width="40" style="position:relative;top:180px;left:8%;"></a>
+            </figcaption>
+      </figure>
+            </div>
+      </div>
+    </div>
+    <hr>
+<!--3-->
+  <div class="container">
+      <div class="row">
+            <div class="col-12 col-md-6">
+              <figure class="snip1321" style="position:relative;left:8%;"><img src="../assets/img/our/p4.jpg" />
+        <figcaption>
+          <p class="p9">張勻怡</p>
+            <p class="p5">資管二乙<br>生日︰89.1.31<br>興趣︰跟狗玩><</p>
+             <a href="https://www.facebook.com/zhang.y.yi.7" target="_blank"><img src="../assets/img/our/fb.png" height="40" width="40" style="position:relative;top:180px;left:-8%;"></a>
+            <a href="https://www.instagram.com/yoo_ut/" target="_blank"><img src="../assets/img/our/ig.png" height="40" width="40"style="position:relative;top:180px;left:8%;"></a> 
+            </figcaption>
+      </figure>
+            </div>
+            <div class="col-12 col-md-3" style="position:relative;top:160px;font-size: 30px;left:30px;">
+              <p class="p6" align="center">喝了幸運藥水<br>期末歐歐歐歐趴!!!!</p>
+            </div>
+             <div class="col-12 col-md-3">
+              <img src="../assets/img/our/p42.png" style="position:relative;top:60px;width: 250px; height: 250px;border-radius: 50%;right:15%;" >
+            </div>
+      </div>
+    </div>
+    <hr>
+<!--4-->
+
+
+		</div>
+		<footer class="f1" style="margin-top:81px;">Copyright&emsp;©&emsp;<img src="../assets/img/logo.png"style="width:75px;height:40px"><div class="p7" style="float:right;">訪客數︰</div></footer>
+  		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    	
+    	 <script type="text/javascript" src="../assets/js/alertcar.js"></script>
+    	<!---->
+    </body>
+</html>
